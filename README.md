@@ -1,0 +1,1 @@
+# redmine-view-customize-scripts
