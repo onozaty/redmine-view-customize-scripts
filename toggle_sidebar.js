@@ -1,3 +1,7 @@
+// サイドバーを開閉式にします
+//
+// Path pattern: .*
+// Type: JavaScript
 $(function() {
 
   $('#content')
