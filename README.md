@@ -1,12 +1,10 @@
-# redmine-view-customize-scripts
-
-## 作成済み
+# Script list for "Redmine View Customize Plugin"
 
 * [プロジェクト毎にヘッダの色を変える](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/change_header_color_by_project.css)
 * [チケット作成時にトラッカーに応じてデフォルト値を設定](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/set_default_value_at_change_tracker.js)
 * [サイドバーを開閉式に](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/toggle_sidebar.js)
 
-## 作成予定
+## Comming soon
 
 * redmine.tokyo勉強会で紹介したもの全部
 * チケット作成画面で項目名を変える
