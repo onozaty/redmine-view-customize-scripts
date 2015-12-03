@@ -3,6 +3,7 @@
 * [プロジェクト毎にヘッダの色を変える](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/change_header_color_by_project.css)
 * [チケット作成時にトラッカーに応じてデフォルト値を設定](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/set_default_value_at_change_tracker.js)
 * [サイドバーを開閉式に](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/toggle_sidebar.js)
+* [「全てのチケット一覧」リンクをヘッダに](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/add_issues_link_on_header.js)
 
 ## Comming soon
 
