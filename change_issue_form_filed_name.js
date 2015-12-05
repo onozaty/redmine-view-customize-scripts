@@ -3,6 +3,7 @@ Path pattern: /issues/
 Type: JavaScript
 
 チケット作成、編集時の項目名を変える
+(全体として統一して変更するならば、config/locales/*.ymlを変えた方が良い)
 */
 $(function() {
   // チケットのSubjectの名前を変える
