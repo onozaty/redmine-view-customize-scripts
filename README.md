@@ -5,6 +5,7 @@
 * [サイドバーを開閉式に](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/toggle_sidebar.js)
 * [「全てのチケット一覧」リンクをヘッダに](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/add_issues_link_on_header.js)
 * [進行中にもかかわらず担当者が未設定の場合に警告を表示](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/show_alert_if_not_assign.js)
+* [チケット作成、編集時の項目名を変える](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/show_alert_if_not_assign.js)
 
 
 ## Comming soon
