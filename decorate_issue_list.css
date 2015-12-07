@@ -1,0 +1,25 @@
+/*
+Path pattern: /issues$
+Type: StyleSheet
+
+チケット一覧を識別しやすいように
+(チケットの情報/状態に応じてclassが指定されているのでそれを利用)
+*/
+
+/* 自分が担当のチケットは太字 */
+tr.issue.assigned-to-me {
+  font-weight: bold;
+}
+
+/* 優先度が今すぐのものは赤字 */
+tr.issue.priority-highest,
+tr.issue.priority-highest a,
+tr.issue.priority-highest a:link,
+tr.issue.priority-highest a:visited {
+  color: red;
+}
+
+/* 題名は折り返さない */
+tr.issue td.subject {
+  white-space: nowrap;
+}
