@@ -7,11 +7,10 @@
 * [「全てのチケット一覧」リンクをヘッダに](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/add_issues_link_on_header.js)
 * [進行中にもかかわらず担当者が未設定の場合に警告を表示](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/show_alert_if_not_assign.js)
 * [チケット作成、編集時の項目名を変える](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/show_alert_if_not_assign.js)
-
+* [ユーザ選択のカスタムフィールドで自分を選択する項目を先頭に追加](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/add_me_for_custome_users_field.js)
 
 ## Comming soon
 
 * redmine.tokyo勉強会で紹介したもの全部
 * プロジェクト一覧で折り畳み表示
 * チケット新規作成時に担当者のデフォルトを自分自身に
-* ユーザ選択のカスタムフィールドで自分を選択する項目を先頭に追加
