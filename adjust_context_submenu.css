@@ -1,0 +1,19 @@
+/*
+Path pattern: /issues$
+Type: StyleSheet
+
+コンテキストメニューを選択しやすくする
+- http://blog.enjoyxstudy.com/entry/2016/01/24/000000
+*/
+
+/* 上方向に表示している時でも、サブメニューは下方向へ */
+#context-menu.reverse-y > ul > li.folder > ul {
+    top: 0;
+    bottom: auto;
+}
+
+/* サブメニューの高さを固定にして、スクロールを出すように */
+#context-menu > ul > li.folder > ul {
+    max-height: 200px;
+    overflow-y: auto;
+}
