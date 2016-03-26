@@ -1,13 +1,13 @@
 # Script list for "Redmine View Customize Plugin"
 
-* [プロジェクト毎にヘッダの色を変える](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/change_header_color_by_project.css)
-* [チケット一覧を識別しやすいように装飾](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/decorate_issue_list.css)
-* [チケット作成時にトラッカーに応じてデフォルト値を設定](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/set_default_value_at_change_tracker.js)
-* [サイドバーを開閉式に](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/toggle_sidebar.js)
-* [「全てのチケット一覧」リンクをヘッダに](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/add_issues_link_on_header.js)
-* [進行中にもかかわらず担当者が未設定の場合に警告を表示](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/show_alert_if_not_assign.js)
-* [チケット作成、編集時の項目名を変える](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/show_alert_if_not_assign.js)
-* [ユーザ選択のカスタムフィールドで自分を選択する項目を先頭に追加](https://github.com/onozaty/redmine-view-customize-scripts/blob/master/add_me_for_custome_users_field.js)
+* [プロジェクト毎にヘッダの色を変える](./change_header_color_by_project.css)
+* [チケット一覧を識別しやすいように装飾](./decorate_issue_list.css)
+* [チケット作成時にトラッカーに応じてデフォルト値を設定](./set_default_value_at_change_tracker.js)
+* [サイドバーを開閉式に](./toggle_sidebar.js)
+* [「全てのチケット一覧」リンクをヘッダに](./add_issues_link_on_header.js)
+* [進行中にもかかわらず担当者が未設定の場合に警告を表示](./show_alert_if_not_assign.js)
+* [チケット作成、編集時の項目名を変える](./show_alert_if_not_assign.js)
+* [ユーザ選択のカスタムフィールドで自分を選択する項目を先頭に追加](./add_me_for_custome_users_field.js)
 * [プロジェクト一覧からの各プロジェクトへのリンク先を変更](./change_project_link_on_project_list.js)
 
 ## Comming soon
