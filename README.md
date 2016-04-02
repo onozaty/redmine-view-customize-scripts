@@ -9,6 +9,7 @@
 * [チケット作成、編集時の項目名を変える](./show_alert_if_not_assign.js)
 * [ユーザ選択のカスタムフィールドで自分を選択する項目を先頭に追加](./add_me_for_custome_users_field.js)
 * [プロジェクト一覧からの各プロジェクトへのリンク先を変更](./change_project_link_on_project_list.js)
+* [カスタムフィールドを連動させる(親の値に応じて、子を絞り込む)](./link_custom_field.js)
 
 ## Comming soon
 
