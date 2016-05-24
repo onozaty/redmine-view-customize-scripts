@@ -5,7 +5,7 @@ Type: JavaScript
 */
 $(function() {
   var handler = function() {
-    alert('コンテキストメニューからステータスを無効には出来ません。');
+    alert('コンテキストメニューからステータスを却下には出来ません。');
     return false;
   }
 
