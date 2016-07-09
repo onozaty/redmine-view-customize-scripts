@@ -12,6 +12,7 @@
 * [カスタムフィールドを連動させる(親の値に応じて、子を絞り込む)](./link_custom_field.js)
 * [コンテキストメニューを選択しやすくする](./adjust_context_submenu.css)
 * [チケット一覧のコンテキストメニューでステータス変更を無効に](./handling_issue_list_context_menu.js)
+* [チケットのステータスに応じて、カスタムフィールドの表示/非表示を切り替える](./change_custom_field_visibility_when_change_status.js)
 
 
 ## Comming soon
