@@ -8,7 +8,7 @@ $(function() {
   var newIssueSub = $('.menu-children a.new-issue-sub');
 
   if (newIssueSub.size() == 1) {
-
+    // "+"ボタンで「新しいチケット」が表示され時のみ、タブにも追加
     $('#main-menu > ul > li > a.issues').parent()
       .after($('<li>').append(newIssueSub.clone().attr('class', 'new-issue')));
 
