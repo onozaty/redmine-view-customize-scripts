@@ -13,7 +13,7 @@
 * [コンテキストメニューを選択しやすくする](./adjust_context_submenu.css)
 * [チケット一覧のコンテキストメニューでステータス変更を無効に](./handling_issue_list_context_menu.js)
 * [チケットのステータスに応じて、カスタムフィールドの表示/非表示を切り替える](./change_custom_field_visibility_when_change_status.js)
-
+* [新しいチケットタブを表示する(Redmine3.3で"+"ボタンと両立した時)](./add_new_issue_tab.js)
 
 ## Comming soon
 
