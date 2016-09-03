@@ -1,5 +1,5 @@
 /*
-Path pattern: /issues?
+Path pattern: /issues$
 Type: JavaScript
 
 チケット一覧の進捗欄で進捗の値を表示
