@@ -24,7 +24,7 @@ $(function() {
       var child = $(this);
 
       // 一致したものだけに絞り込む
-      // (IEの場合はoptionがdisplay:noneで非表示にならないのでdisabledで選択不可に
+      // (IEの場合はoptionがdisplay:noneで非表示にならないのでdisabledで選択不可に)
       if (isTarget(child, parentSelected)) {
         child.show();
         child.prop('disabled', false);
