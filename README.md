@@ -17,6 +17,7 @@
 * [チケット一覧の進捗率にて値も表示する](./add_value_of_progress_on_issues_list.js)
 * [カスタムフィールドのチェックボックスを2列で表示](./multi_column_checkbox.css)
 * [チケット一覧のコンテキストメニューにコマンド追加](./add_command_to_issues_context_menu.js)
+* [ステータスに応じて、カスタムフィールドの表示を切り替える](./change_custom_field_visibility_when_change_status.js)
 
 ## Comming soon
 
