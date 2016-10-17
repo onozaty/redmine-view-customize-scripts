@@ -47,7 +47,7 @@ $(function() {
     }).fail(function(jqXHR, textStatus, errorThrown){
 
       // 失敗時の処理
-      alert('エラーが発生しました。 status:' + jqXHR.status);
+      alert('失敗しました。 status:' + jqXHR.status);
     });
 
     contextMenuHide();
