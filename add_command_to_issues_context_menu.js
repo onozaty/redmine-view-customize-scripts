@@ -6,8 +6,8 @@ Type: JavaScript
 */
 $(function() {
 
-  // 対象のURI
-  var commandUri = 'http://192.168.33.10/test';
+  // 対象のURL
+  var commandUrl = 'http://192.168.33.10/test';
   var commandTitle = 'コマンド実行';
 
   // コンテキストメニューを表示したタイミングでフックするために
@@ -37,7 +37,7 @@ $(function() {
     // 対象のURIにチケット番号をパラメータとして送信
     $.ajax({
       type: 'GET',
-      url: commandUri,
+      url: commandUrl,
       data: 'issues=' + issues // チケット番号をパラメータとして
     }).done(function(data, textStatus, jqXHR){
 
