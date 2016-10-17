@@ -6,8 +6,8 @@ Type: JavaScript
 */
 $(function() {
 
-  // 対象のURL
-  var commandUrl = 'http://192.168.33.10/test';
+  // 対象のURL(同一ドメイン)
+  var commandUrl = '/test';
   var commandTitle = 'コマンド実行';
 
   // コンテキストメニューを表示したタイミングでフックするために
