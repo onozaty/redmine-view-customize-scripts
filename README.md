@@ -18,6 +18,7 @@
 * [カスタムフィールドのチェックボックスを2列で表示](./multi_column_checkbox.css)
 * [チケット一覧のコンテキストメニューにコマンド追加](./add_command_to_issues_context_menu.js)
 * [ステータスに応じて、カスタムフィールドの表示を切り替える](./change_custom_field_visibility_when_change_status.js)
+* [チェックボックスを横並びにする](./row_checkbox.css)
 
 ## Comming soon
 
