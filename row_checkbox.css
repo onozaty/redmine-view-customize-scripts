@@ -1,0 +1,15 @@
+/*
+Path pattern: /issues
+Type: StyleSheet
+*/
+span.list_cf.check_box_group {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap; 
+  -webkit-flex-wrap: wrap; 
+}
+
+/* サイズも統一したい場合 */
+span.list_cf.check_box_group label {
+  width: 100px;
+}
