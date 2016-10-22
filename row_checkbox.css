@@ -2,7 +2,7 @@
 Path pattern: /issues
 Type: StyleSheet
 */
-span.list_cf.check_box_group {
+span.enumeration_cf.check_box_group {
   display: flex;
   display: -webkit-flex;
   flex-wrap: wrap; 
@@ -10,6 +10,6 @@ span.list_cf.check_box_group {
 }
 
 /* サイズも統一したい場合 */
-span.list_cf.check_box_group label {
+span.enumeration_cf.check_box_group label {
   width: 100px;
 }
