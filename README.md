@@ -19,6 +19,7 @@
 * [チケット一覧のコンテキストメニューにコマンド追加](./add_command_to_issues_context_menu.js)
 * [ステータスに応じて、カスタムフィールドの表示を切り替える](./change_custom_field_visibility_when_change_status.js)
 * [チェックボックスを横並びにする](./row_checkbox.css)
+* [チケット一覧のコンテキストメニューからステータスを切り替えた際に、バージョンも変更する](./change_version_when_change_status_on_context_menu.js)
 
 ## Comming soon
 
