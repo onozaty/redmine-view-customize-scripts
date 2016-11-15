@@ -20,6 +20,7 @@
 * [ステータスに応じて、カスタムフィールドの表示を切り替える](./change_custom_field_visibility_when_change_status.js)
 * [チェックボックスを横並びにする](./row_checkbox.css)
 * [チケット一覧のコンテキストメニューからステータスを切り替えた際に、バージョンも変更する](./change_version_when_change_status_on_context_menu.js)
+* [カスタムフィールドを説明の後ろに移動](./move_custom_filed_after_description.js)
 
 ## Comming soon
 
