@@ -2,7 +2,7 @@
 Path pattern: /issues
 Type: JavaScript
 
-カスタムフィールドをの説明のい後ろに移動
+カスタムフィールドをの説明の後ろに移動
 */
 $(function() {
   // 対象のカスタムフィールドの要素を取得
