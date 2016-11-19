@@ -21,6 +21,7 @@
 * [チェックボックスを横並びにする](./row_checkbox.css)
 * [チケット一覧のコンテキストメニューからステータスを切り替えた際に、バージョンも変更する](./change_version_when_change_status_on_context_menu.js)
 * [カスタムフィールドを説明の後ろに移動](./move_custom_filed_after_description.js)
+* [チケットの説明を非表示に](./hide_issue_description.js)
 
 ## Comming soon
 
