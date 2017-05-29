@@ -23,6 +23,7 @@
 * [カスタムフィールドを説明の後ろに移動](./move_custom_filed_after_description.js)
 * [チケットの説明を非表示に](./hide_issue_description.js)
 * [リポジトリタブでのデフォルトブランチを変更](./change_default_branch_on_repository_tab.js)
+* [カスタムフィールドの値でチケット一覧のフォントをBoldに変える](./change_font_weight_by_custom_field_on_issue_list.js)
 
 ## Comming soon
 
