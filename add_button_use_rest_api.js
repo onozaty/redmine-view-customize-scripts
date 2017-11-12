@@ -31,11 +31,12 @@ $(function() {
           // 更新時はレスポンスのコンテンツが無く
           // jsonだとエラーとなるのでtextにしておく
           dataType: 'text',
-          data: {
+          contentType: 'application/json',
+          data: JSON.stringify({
             'issue': {
               'parent_issue_id': '' // 親チケットIDをクリア
             }
-          }
+          })
       }).done(function(data) {
         // 成功したらリロード
         location.reload();
