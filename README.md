@@ -27,6 +27,7 @@
 * [子チケット一覧に親子関係を外すボタンを追加し、ボタン押下時にREST APIを使って親チケットの情報をクリアする](./add_button_use_rest_api.js)
 * [チケット作成、編集画面の作成/送信ボタンにaccesskeyを追加する](./add_accesskey_on_issue_submit_button.js)
 * [長いテキストを幅広く表示する](./display_long_text_wide.js)
+* [担当者を入力補完を利用して選択する](./autocomplete_assigned_to.js)
 
 ## Comming soon
 
