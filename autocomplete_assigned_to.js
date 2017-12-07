@@ -5,7 +5,7 @@ Type: JavaScript
 */
 $(function() {
 
-  function repalceSelectToAutocomplete(selectElement) {
+  function replaceSelectToAutocomplete(selectElement) {
 
     var $select = $(selectElement);
 
@@ -58,7 +58,7 @@ $(function() {
   }
 
   function setupAssignedAutocomplete() {
-    repalceSelectToAutocomplete('#issue_assigned_to_id');
+    replaceSelectToAutocomplete('#issue_assigned_to_id');
   }
 
   // ステータス変更時などにDOMが差し替えられるので
