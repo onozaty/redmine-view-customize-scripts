@@ -8,6 +8,9 @@ $(function() {
   function replaceSelectToAutocomplete(selectElement) {
 
     var $select = $(selectElement);
+    if ($select.length == 0) {
+      return;
+    }
 
     var options = $select.find('option[value!=""]')
       .map(function() {
