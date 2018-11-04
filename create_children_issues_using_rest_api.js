@@ -48,10 +48,15 @@ $(function() {
       return;
     }
 
-    var createIssues = issueChildren.map(function(issue) { return createIssue(issue); });
+    // チケット作成処理(非同期)を順次実行し、最後にリロード
+    var defer = $.Deferred();
+    var promise = defer.promise();
 
-    // 作成処理をまとめて呼び出し、全て終わったらリロード
-    $.when.apply(null, createIssues)
+    for (var i = 0; i < issueChildren.length; i++) {
+      promise = promise.then(createIssue(issueChildren[i]));
+    }
+
+    promise
       .done(function() {
         // 成功したらリロード
         location.reload();
@@ -59,31 +64,26 @@ $(function() {
       .fail(function() {
         alert('失敗しました');
       });
+
+    defer.resolve();
   });
 
   function createIssue(issue) {
 
-    var defer = new $.Deferred;
+    return function() {
 
-    $.ajax({
-      type: 'POST',
-      url: '/issues.json',
-      headers: {
-        'X-Redmine-API-Key': ViewCustomize.context.user.apiKey
-      },
-      // 作成時はレスポンスのコンテンツが無く、jsonだとエラーとなるのでtextにしておく
-      dataType: 'text',
-      contentType: 'application/json',
-      data: JSON.stringify(issue)
-    })
-    .done(function(data) {
-      defer.resolve();
-    })
-    .fail(function(data) {
-      console.log(data);
-      defer.reject();
-    });
+      return $.ajax({
+        type: 'POST',
+        url: '/issues.json',
+        headers: {
+          'X-Redmine-API-Key': ViewCustomize.context.user.apiKey
+        },
+        // 作成時はレスポンスのコンテンツが無く、jsonだとエラーとなるのでtextにしておく
+        dataType: 'text',
+        contentType: 'application/json',
+        data: JSON.stringify(issue)
+      });
 
-    return defer.promise();
+    };
   }
 })
