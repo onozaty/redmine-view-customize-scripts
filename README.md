@@ -28,9 +28,5 @@
 * [チケット作成、編集画面の作成/送信ボタンにaccesskeyを追加する](./add_accesskey_on_issue_submit_button.js)
 * [長いテキストを幅広く表示する](./display_long_text_wide.js)
 * [担当者を入力補完を利用して選択する](./autocomplete_assigned_to.js)
-
-## Comming soon
-
-* redmine.tokyo勉強会で紹介したもの全部
-* プロジェクト一覧で折り畳み表示
-* チケット新規作成時に担当者のデフォルトを自分自身に
+* [REST APIを利用して複数の子チケットをまとめて作成する(バージョン1.2.0以上)](./create_children_issues_using_rest_api.js)
+* [REST APIを利用して親チケットの情報をクリアする(バージョン1.2.0以上)](./delete_parentage_relationship_using_rest_api.js)
