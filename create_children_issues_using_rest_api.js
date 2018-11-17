@@ -8,33 +8,39 @@ Type: JavaScript
 */
 $(function() {
 
+  var projectId = $('#issue_project_id').val();
+  var trackerId = $('#issue_tracker_id').val();
+  var subject = $('#issue_subject').val();
+  var priorityId = $('#issue_priority_id').val();
+  var parentIssueId =  ViewCustomize.context.issue.id;
+
   // 子チケットとして作成する情報
   var issueChildren = [
     {
       'issue': {
-        'project_id': $('#issue_project_id').val(),
-        'tracker_id': $('#issue_tracker_id').val(),
-        'subject': $('#issue_subject').val() + ' - 子チケット1',
-        'priority_id': $('#issue_priority_id').val(),
-        'parent_issue_id': ViewCustomize.context.issue.id
+        'project_id': projectId,
+        'tracker_id': trackerId,
+        'subject': subject + ' - 子チケット1',
+        'priority_id': priorityId,
+        'parent_issue_id': parentIssueId
       }
     },
     {
       'issue': {
-        'project_id': $('#issue_project_id').val(),
-        'tracker_id': $('#issue_tracker_id').val(),
-        'subject': $('#issue_subject').val() + ' - 子チケット2',
-        'priority_id': $('#issue_priority_id').val(),
-        'parent_issue_id': ViewCustomize.context.issue.id
+        'project_id': projectId,
+        'tracker_id': trackerId,
+        'subject': subject + ' - 子チケット2',
+        'priority_id': priorityId,
+        'parent_issue_id': parentIssueId
       }
     },
     {
       'issue': {
-        'project_id': $('#issue_project_id').val(),
-        'tracker_id': $('#issue_tracker_id').val(),
-        'subject': $('#issue_subject').val() + ' - 子チケット3',
-        'priority_id': $('#issue_priority_id').val(),
-        'parent_issue_id': ViewCustomize.context.issue.id
+        'project_id': projectId,
+        'tracker_id': trackerId,
+        'subject': subject + ' - 子チケット3',
+        'priority_id': priorityId,
+        'parent_issue_id': parentIssueId
       }
     }
   ];
