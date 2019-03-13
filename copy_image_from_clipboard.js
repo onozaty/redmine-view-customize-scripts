@@ -1,3 +1,10 @@
+/*
+Path pattern: .*
+Insertion position: Head of all pages(全てのページのヘッダ)
+Type: JavaScript
+クリップボードから画像貼り付け可能に
+https://www.redmine.org/projects/redmine/repository/revisions/17874/diff/trunk/public/javascripts/attachments.js
+*/
 $(function() {
 
   $('form div.box').has('input:file.filedrop').on('paste', copyImageFromClipboard);
