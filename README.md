@@ -29,6 +29,7 @@
 * [長いテキストを幅広く表示する](./display_long_text_wide.js)
 * [担当者を入力補完を利用して選択する](./autocomplete_assigned_to.js)
 * [REST APIを利用して複数の子チケットをまとめて作成する(バージョン1.2.0以上)](./create_children_issues_using_rest_api.js)
+* [REST APIを利用して複数の関連チケットをまとめて作成する(バージョン1.2.0以上)](./create_relation_issues_using_rest_api.js)
 * [REST APIを利用して親チケットの情報をクリアする(バージョン1.2.0以上)](./delete_parentage_relationship_using_rest_api.js)
 * [子チケット作成時に親チケットの情報を引き継ぐ(バージョン1.2.0以上)](./take_over_information_when_adding_child_issue.js)
 * [クリップボードから画像を貼り付ける(バージョン1.2.0以上)](./copy_image_from_clipboard.js)
