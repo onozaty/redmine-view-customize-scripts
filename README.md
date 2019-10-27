@@ -36,3 +36,4 @@
 * [テキストエリアで入力補完(バージョン2.1.0以上)](./input_suggestion_on_textarea.html)
 * [プロジェクトを変更したら、強制的に担当者を変更する(バージョン1.2.0以上)](./change_assignee_when_change_project.js)
 * [カスタムフィールドの入力欄をトラッカーの後ろに移動(バージョン1.2.0以上)](./move_custom_filed_input_after_tracker.js)
+* [ステータスを却下にしたときに、期日が未入力だったら今日の日付を入れる(バージョン1.2.0以上)](./set_today_to_due_date_when_resolved.js)
