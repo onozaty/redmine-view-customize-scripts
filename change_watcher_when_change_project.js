@@ -26,7 +26,7 @@ $(function() {
   document.getElementById('all_attributes').addEventListener(
     'change',
     function(e) {
-      if (e.srcElement.id != 'issue_project_id') {
+      if (e.srcElement.id == 'issue_project_id') {
         // プロジェクト変更時のみ
         changeWatcher();
       }
