@@ -27,10 +27,9 @@ $(function() {
     'change',
     function(e) {
       if (e.srcElement.id != 'issue_project_id') {
-        // プロジェクトが変更されたとき以外は何もしない
-        return;
+        // プロジェクト変更時のみ
+        changeWatcher();
       }
-      changeWatcher();
     },
     true);
 })
