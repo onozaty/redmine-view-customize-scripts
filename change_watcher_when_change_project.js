@@ -31,5 +31,5 @@ $(function() {
         changeWatcher();
       }
     },
-    true);
+    true); // キャプチャフェーズ
 })
