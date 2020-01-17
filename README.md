@@ -39,3 +39,4 @@
 * [ステータスを却下にしたときに、期日が未入力だったら今日の日付を入れる(バージョン1.2.0以上)](./set_today_to_due_date_when_resolved.js)
 * [プロジェクトを変更したら、ウォッチャーを変更する(バージョン1.2.0以上)](./change_watcher_when_change_project.js)
 * [特定のプロジェクトでファイル添付を非表示にする](./hide_attachments_form.css)
+* [カスタムフィールドを3カラムで表示する(バージョン1.2.0以上)](./change_3column_custom_fields.js)
