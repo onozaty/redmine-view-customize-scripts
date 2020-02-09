@@ -40,3 +40,5 @@
 * [プロジェクトを変更したら、ウォッチャーを変更する(バージョン1.2.0以上)](./change_watcher_when_change_project.js)
 * [特定のプロジェクトでファイル添付を非表示にする](./hide_attachments_form.css)
 * [カスタムフィールドを3カラムで表示する(バージョン1.2.0以上)](./change_3column_custom_fields.js)
+* [親のカスタムフィールドが選択されたら、子のカスタムフィールドも入力可能に(バージョン1.2.0以上)](./enable_when_custom_field_selected.js)
+
