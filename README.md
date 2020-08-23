@@ -42,3 +42,4 @@
 * [カスタムフィールドを3カラムで表示する(バージョン1.2.0以上)](./change_3column_custom_fields.js)
 * [親のカスタムフィールドが選択されたら、子のカスタムフィールドも入力可能に(バージョン1.2.0以上)](./enable_when_custom_field_selected.js)
 * [期日の3日前になったら警告を表示(バージョン1.2.0以上)](./show_alert_on_due_date.js)
+* [チェックされたらテキストボックスを無効化(バージョン1.2.0以上)](./disable_text_depending_on_checked.js)
