@@ -1,0 +1,9 @@
+/*
+Insertion position: Head of all pages
+Type: CSS
+*/
+/* ユーザID:1 に対するロック、削除ボタンを非表示に */
+a[data-method="put"][href="/users/1?user%5Bstatus%5D=3"],
+a[data-method="delete"][href^="/users/1"] {
+  display: none;
+}
