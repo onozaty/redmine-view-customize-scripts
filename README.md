@@ -46,3 +46,4 @@
 * [特定ユーザの削除、ロックボタンを非表示にする](./hide_lock_button_and_delete_button.css)
 * [特定ユーザに対して一部管理者メニューを非表示にする](./hide_part_of_admin_menu.js)
 * [特定の日以降は新規チケットのリンクを非表示に](./hide_new_issue_link_after_date.js)
+* [チケット一覧横のSummaryリンクを非表示に](./hide_issue_summary_link.css)

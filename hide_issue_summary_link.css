@@ -1,0 +1,8 @@
+/*
+Insertion position: Head of all pages
+Type: CSS
+*/
+/* チケット一覧横のSummaryリンクを非表示 */
+a[href$="/issues/report"] {
+  display: none;
+}
