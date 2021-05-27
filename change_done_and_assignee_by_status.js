@@ -6,6 +6,7 @@ Type: JavaScript
 */
 $(function () {
 
+  const trackerElementId = 'issue_tracker_id';
   const statusElementId = 'issue_status_id';
   const doneRatioElementId = 'issue_done_ratio';
   const assigneeElementId = 'issue_assigned_to_id';
@@ -15,16 +16,27 @@ $(function () {
 
   // ステータスに応じた進捗率と担当者の情報
   const statusConditions = {
-    '7' : {done:  10, assignee: workerElementId},   // 担当                 :  10% / 作業者
-    '8' : {done:  30, assignee: workerElementId},   // 作成中               :  30% / 作業者
-    '10': {done:  50, assignee: reviewerElementId}, // レビュー待ち         :  50% / レビューア
-    '11': {done:  70, assignee: workerElementId},   // レビュー結果反映待ち :  70% / 作業者
-    '5' : {done: 100, assignee: workerElementId}    // 終了                 : 100% / 作業者
+    // トラッカー毎に定義
+    '4': {
+      '7' : {done:  10, assignee: workerElementId},   // 担当                 :  10% / 作業者
+      '8' : {done:  30, assignee: workerElementId},   // 作成中               :  30% / 作業者
+      '10': {done:  50, assignee: reviewerElementId}, // レビュー待ち         :  50% / レビューア
+      '11': {done:  70, assignee: workerElementId},   // レビュー結果反映待ち :  70% / 作業者
+      '5' : {done: 100, assignee: workerElementId}    // 終了                 : 100% / 作業者
+    }
   };
 
   $('#all_attributes').change(function(e) {
-    const statusCondition = statusConditions[$('#' + statusElementId).val()];
+
+    const trackerCondtion = statusConditions[$('#' + trackerElementId).val()];
+    if (trackerCondtion == null) {
+      // 現在のトラッカーに対する設定が無い
+      return null;
+    }
+
+    const statusCondition = trackerCondtion[$('#' + statusElementId).val()];
     if (statusCondition == null) {
+      // ステータスに対する設定が無い
       return;
     }
 
