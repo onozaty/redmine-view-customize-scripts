@@ -49,3 +49,4 @@
 * [チケット一覧横のSummaryリンクを非表示に](./hide_issue_summary_link.css)
 * [親チケットが設定されたらカスタムフィールドを無効に](./disable_if_parent_issue_is_set.js)
 * [チケットタブでのデフォルトクエリ変更](./change_issue_default_query.js)
+* [チケット一覧を折りたたんだ状態で表示する](./folded_issues.js)
