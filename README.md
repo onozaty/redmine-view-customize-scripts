@@ -1,4 +1,15 @@
-# Script list for "Redmine View Customize Plugin"
+# Code examples for "Redmine View Customize Plugin"
+
+This is a project that publishes code examples of [View customize plugin for Redmine](https://github.com/onozaty/redmine-view-customize).  
+Please refer to it when you write your code.
+
+If the code you try does not work, you can ask a question via the project's [Issue](https://github.com/onozaty/redmine-view-customize-scripts/issues).  
+**Please note that this is a place to ask questions, not a place to request coding.**
+
+This project is maintained by [@onozaty](https://github.com/onozaty), the author of the View customize plugin.  
+If this project serves you well, please support this project as a [sponsor](https://github.com/sponsors/onozaty).
+
+## Examples 
 
 * [プロジェクト毎にヘッダの色を変える](./change_header_color_by_project.css)
 * [チケット一覧を識別しやすいように装飾](./decorate_issue_list.css)
