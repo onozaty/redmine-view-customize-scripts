@@ -9,10 +9,6 @@ Change the color of the header for each project to help you know which project y
 
 None
 
-### Project Pattern
-
-None
-
 ### Insert Position
 
 Head of all pages
@@ -55,3 +51,4 @@ body.project-b #header {
 ![project-a](./result1.png)
 
 ![project-b](./result2.png)
+

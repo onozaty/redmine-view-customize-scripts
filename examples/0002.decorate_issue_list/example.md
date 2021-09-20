@@ -14,10 +14,6 @@ Decorate the issue list.
 
 `/issues$`
 
-### Project Pattern
-
-None
-
 ### Insert Position
 
 Head of all pages

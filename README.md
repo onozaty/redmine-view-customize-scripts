@@ -13,6 +13,8 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Issue / チケット
 
+* [Set the default value by tracker / トラッカーに応じてデフォルト値を設定](./examples/0003.set_default_value_by_tracker/example.md)  
+
 ### Issues list / チケット一覧
 
 * [Decorate the issue list / チケット一覧を装飾](./examples/0002.decorate_issue_list/example.md)  
@@ -23,9 +25,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [プロジェクト毎にヘッダの色を変える](./old-examples/change_header_color_by_project.css)
-* [チケット一覧を識別しやすいように装飾](./old-examples/decorate_issue_list.css)
-* [チケット作成時にトラッカーに応じてデフォルト値を設定](./old-examples/set_default_value_at_change_tracker.js)
 * [サイドバーを開閉式に](./old-examples/toggle_sidebar.js)
 * [「全てのチケット一覧」リンクをヘッダに](./old-examples/add_issues_link_on_header.js)
 * [進行中にもかかわらず担当者が未設定の場合に警告を表示](./old-examples/show_alert_if_not_assign.js)
