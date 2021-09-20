@@ -15,6 +15,8 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Issues list / チケット一覧
 
+* [Decorate the issue list / チケット一覧を装飾](./examples/0002.decorate_issue_list/example.md)  
+
 ### Other / その他
 
 * [Change the color of the header for each project / プロジェクト毎にヘッダの色を変える](./examples/0001.change_header_color_by_project/example.md)  
