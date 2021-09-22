@@ -23,10 +23,10 @@ If this project serves you well, please support this project as a [sponsor](http
 
 * [Change the color of the header for each project / プロジェクト毎にヘッダの色を変える](./examples/0001.change_header_color_by_project/example.md)  
 * [Toggle the display of the sidebar / サイドバーの表示・非表示を切り替え](./examples/0004.toggle_sidebar/example.md)  
+* [Add a link to the list of all issues on the header / 全てのチケット一覧のリンクをヘッダに追加](./examples/0005.add_issues_link_on_header/example.md)  
 
 ### Old
 
-* [「全てのチケット一覧」リンクをヘッダに](./old-examples/add_issues_link_on_header.js)
 * [進行中にもかかわらず担当者が未設定の場合に警告を表示](./old-examples/show_alert_if_not_assign.js)
 * [チケット作成、編集時の項目名を変える](./old-examples/change_issue_form_filed_name.js)
 * [ユーザ選択のカスタムフィールドで自分を選択する項目を先頭に追加](./old-examples/add_me_for_custome_users_field.js)
