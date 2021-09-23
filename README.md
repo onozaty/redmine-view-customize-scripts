@@ -24,10 +24,10 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Change the color of the header for each project / プロジェクト毎にヘッダの色を変える](./examples/0001.change_header_color_by_project/example.md)  
 * [Toggle the display of the sidebar / サイドバーの表示・非表示を切り替え](./examples/0004.toggle_sidebar/example.md)  
 * [Add a link to the list of all issues on the header / 全てのチケット一覧のリンクをヘッダに追加](./examples/0005.add_issues_link_on_header/example.md)  
+* [Change the URL of the link to each project in the project list / プロジェクト一覧の各プロジェクトへのリンクのURLを変更](./examples/0006.change_project_link_url/example.md)  
 
 ### Old
 
-* [プロジェクト一覧からの各プロジェクトへのリンク先を変更](./old-examples/change_project_link_on_project_list.js)
 * [カスタムフィールドを連動させる(親の値に応じて、子を絞り込む)](./old-examples/link_custom_field.js)
 * [コンテキストメニューを選択しやすくする](./old-examples/adjust_context_submenu.css)
 * [チケット一覧のコンテキストメニューでステータス変更を無効に](./old-examples/handling_issue_list_context_menu.js)
