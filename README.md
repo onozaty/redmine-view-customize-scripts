@@ -27,9 +27,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [進行中にもかかわらず担当者が未設定の場合に警告を表示](./old-examples/show_alert_if_not_assign.js)
-* [チケット作成、編集時の項目名を変える](./old-examples/change_issue_form_filed_name.js)
-* [ユーザ選択のカスタムフィールドで自分を選択する項目を先頭に追加](./old-examples/add_me_for_custome_users_field.js)
 * [プロジェクト一覧からの各プロジェクトへのリンク先を変更](./old-examples/change_project_link_on_project_list.js)
 * [カスタムフィールドを連動させる(親の値に応じて、子を絞り込む)](./old-examples/link_custom_field.js)
 * [コンテキストメニューを選択しやすくする](./old-examples/adjust_context_submenu.css)
