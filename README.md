@@ -14,6 +14,7 @@ If this project serves you well, please support this project as a [sponsor](http
 ### Issue / チケット
 
 * [Set the default value by tracker / トラッカーに応じてデフォルト値を設定](./examples/0003.set_default_value_by_tracker/example.md)  
+* [Link custom fields (refining the children according to the parent value) / カスタムフィールドを連動させる(親の値に応じて、子を絞り込む)](./examples/0007.link_custom_fields/example.md)  
 
 ### Issues list / チケット一覧
 
@@ -28,7 +29,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [カスタムフィールドを連動させる(親の値に応じて、子を絞り込む)](./old-examples/link_custom_field.js)
 * [コンテキストメニューを選択しやすくする](./old-examples/adjust_context_submenu.css)
 * [チケット一覧のコンテキストメニューでステータス変更を無効に](./old-examples/handling_issue_list_context_menu.js)
 * [チケットのステータスに応じて、カスタムフィールドの表示/非表示を切り替える](./old-examples/change_custom_field_visibility_when_change_status.js)
