@@ -15,6 +15,7 @@ If this project serves you well, please support this project as a [sponsor](http
 
 * [Set the default value by tracker / トラッカーに応じてデフォルト値を設定](./examples/0003.set_default_value_by_tracker/example.md)  
 * [Link custom fields (refining the children according to the parent value) / カスタムフィールドを連動させる(親の値に応じて、子を絞り込む)](./examples/0007.link_custom_fields/example.md)  
+* [Change the visibility of custom fields by status / チケットのステータスに応じて、カスタムフィールドの表示/非表示を切り替える](./examples/0008.change_custom_field_visibility_by_status/example.md)
 
 ### Issues list / チケット一覧
 
@@ -29,7 +30,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [チケットのステータスに応じて、カスタムフィールドの表示/非表示を切り替える](./old-examples/change_custom_field_visibility_when_change_status.js)
 * [新しいチケットタブを表示する(Redmine3.3で"+"ボタンと両立した時)](./old-examples/add_new_issue_tab.js)
 * [チケット一覧の進捗率にて値も表示する](./old-examples/add_value_of_progress_on_issues_list.js)
 * [カスタムフィールドのチェックボックスを2列で表示](./old-examples/multi_column_checkbox.css)
