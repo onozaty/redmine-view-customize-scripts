@@ -29,7 +29,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [チケット一覧のコンテキストメニューでステータス変更を無効に](./old-examples/handling_issue_list_context_menu.js)
 * [チケットのステータスに応じて、カスタムフィールドの表示/非表示を切り替える](./old-examples/change_custom_field_visibility_when_change_status.js)
 * [新しいチケットタブを表示する(Redmine3.3で"+"ボタンと両立した時)](./old-examples/add_new_issue_tab.js)
 * [チケット一覧の進捗率にて値も表示する](./old-examples/add_value_of_progress_on_issues_list.js)
