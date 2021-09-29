@@ -27,10 +27,10 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Toggle the display of the sidebar / サイドバーの表示・非表示を切り替え](./examples/0004.toggle_sidebar/example.md)  
 * [Add a link to the list of all issues on the header / 全てのチケット一覧のリンクをヘッダに追加](./examples/0005.add_issues_link_on_header/example.md)  
 * [Change the URL of the link to each project in the project list / プロジェクト一覧の各プロジェクトへのリンクのURLを変更](./examples/0006.change_project_link_url/example.md)  
+* [Add a new Issue tab (and "+" button available) / 新しいチケットタブを追加 ("+"ボタンと両立)](./examples/0009.add_new_issue_tab/example.md)  
 
 ### Old
 
-* [新しいチケットタブを表示する(Redmine3.3で"+"ボタンと両立した時)](./old-examples/add_new_issue_tab.js)
 * [チケット一覧の進捗率にて値も表示する](./old-examples/add_value_of_progress_on_issues_list.js)
 * [カスタムフィールドのチェックボックスを2列で表示](./old-examples/multi_column_checkbox.css)
 * [チケット一覧のコンテキストメニューにコマンド追加](./old-examples/add_command_to_issues_context_menu.js)
