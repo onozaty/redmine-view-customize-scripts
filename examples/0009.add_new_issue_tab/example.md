@@ -1,6 +1,6 @@
-# Add a new Issue tab
+# Add a new issue tab
 
-Add a new Issue tab.  
+Add a new issue tab.  
 新しいチケットタブを追加します。
 
 In the Redmine settings, you can only show either the new Issue tab or the "+" button, but this setting allows you to show both.  
