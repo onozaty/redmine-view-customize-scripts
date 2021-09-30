@@ -20,6 +20,7 @@ If this project serves you well, please support this project as a [sponsor](http
 ### Issues list / チケット一覧
 
 * [Decorate the issue list / チケット一覧を装飾](./examples/0002.decorate_issue_list/example.md)  
+* [Add a progress value to the issue list / チケット一覧に進捗の値を追加](./examples/0010.add_progress_value_to_issue_list/example.md)  
 
 ### Other / その他
 
@@ -31,7 +32,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [チケット一覧の進捗率にて値も表示する](./old-examples/add_value_of_progress_on_issues_list.js)
 * [カスタムフィールドのチェックボックスを2列で表示](./old-examples/multi_column_checkbox.css)
 * [チケット一覧のコンテキストメニューにコマンド追加](./old-examples/add_command_to_issues_context_menu.js)
 * [ステータスに応じて、カスタムフィールドの表示を切り替える](./old-examples/change_custom_field_visibility_when_change_status.js)
