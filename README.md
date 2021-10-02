@@ -33,8 +33,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [チケット一覧のコンテキストメニューにコマンド追加](./old-examples/add_command_to_issues_context_menu.js)
-* [ステータスに応じて、カスタムフィールドの表示を切り替える](./old-examples/change_custom_field_visibility_when_change_status.js)
 * [チェックボックスを横並びにする](./old-examples/row_checkbox.css)
 * [チケット一覧のコンテキストメニューからステータスを切り替えた際に、バージョンも変更する](./old-examples/change_version_when_change_status_on_context_menu.js)
 * [カスタムフィールドを説明の後ろに移動](./old-examples/move_custom_filed_after_description.js)
