@@ -17,6 +17,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Link custom fields (refining the children according to the parent value) / カスタムフィールドを連動させる(親の値に応じて、子を絞り込む)](./examples/0007.link_custom_fields/example.md)  
 * [Change the visibility of custom fields by status / チケットのステータスに応じて、カスタムフィールドの表示/非表示を切り替える](./examples/0008.change_custom_field_visibility_by_status/example.md)
 * [Display custom field checkboxes in two columns / カスタムフィールドのチェックボックスを2列で表示](./examples/0011.custom_field_checkbox_two_columns/example.md)
+* [Display custom field checkboxes horizontally / カスタムフィールドのチェックボックスを横並びで表示](./examples/0012.custom_field_checkbox_horizontally/example.md)
 
 ### Issues list / チケット一覧
 
@@ -33,7 +34,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [チェックボックスを横並びにする](./old-examples/row_checkbox.css)
 * [チケット一覧のコンテキストメニューからステータスを切り替えた際に、バージョンも変更する](./old-examples/change_version_when_change_status_on_context_menu.js)
 * [カスタムフィールドを説明の後ろに移動](./old-examples/move_custom_filed_after_description.js)
 * [チケットの説明を非表示に](./old-examples/hide_issue_description.js)
