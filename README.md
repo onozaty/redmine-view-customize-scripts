@@ -23,6 +23,7 @@ If this project serves you well, please support this project as a [sponsor](http
 
 * [Decorate the issue list / チケット一覧を装飾](./examples/0002.decorate_issue_list/example.md)  
 * [Add a progress value to the issue list / チケット一覧に進捗の値を追加](./examples/0010.add_progress_value_to_issue_list/example.md)  
+* [Change the version when the status is changed from the context menu of the issue list / チケット一覧のコンテキストメニューからステータスを変更した際に、バージョン番号も変更](./examples/0013.change_version_when_status_change_from_context_menu/example.md)
 
 ### Other / その他
 
@@ -34,7 +35,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [チケット一覧のコンテキストメニューからステータスを切り替えた際に、バージョンも変更する](./old-examples/change_version_when_change_status_on_context_menu.js)
 * [カスタムフィールドを説明の後ろに移動](./old-examples/move_custom_filed_after_description.js)
 * [チケットの説明を非表示に](./old-examples/hide_issue_description.js)
 * [リポジトリタブでのデフォルトブランチを変更](./old-examples/change_default_branch_on_repository_tab.js)
