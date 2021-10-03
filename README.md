@@ -11,13 +11,17 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ## Examples 
 
-### Issue / チケット
+### Issue input / チケット入力
 
 * [Set the default value by tracker / トラッカーに応じてデフォルト値を設定](./examples/0003.set_default_value_by_tracker/example.md)  
 * [Link custom fields (refining the children according to the parent value) / カスタムフィールドを連動させる(親の値に応じて、子を絞り込む)](./examples/0007.link_custom_fields/example.md)  
 * [Change the visibility of custom fields by status / チケットのステータスに応じて、カスタムフィールドの表示/非表示を切り替える](./examples/0008.change_custom_field_visibility_by_status/example.md)
 * [Display custom field checkboxes in two columns / カスタムフィールドのチェックボックスを2列で表示](./examples/0011.custom_field_checkbox_two_columns/example.md)
 * [Display custom field checkboxes horizontally / カスタムフィールドのチェックボックスを横並びで表示](./examples/0012.custom_field_checkbox_horizontally/example.md)
+
+### Issue detail / チケット詳細
+
+* [Move custom field to after description / カスタムフィールドを説明の後ろに移動](./examples/0014.move_custom_field_to_after_description/example.md)
 
 ### Issues list / チケット一覧
 
@@ -35,7 +39,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [カスタムフィールドを説明の後ろに移動](./old-examples/move_custom_filed_after_description.js)
 * [チケットの説明を非表示に](./old-examples/hide_issue_description.js)
 * [リポジトリタブでのデフォルトブランチを変更](./old-examples/change_default_branch_on_repository_tab.js)
 * [カスタムフィールドの値でチケット一覧のフォントをBoldに変える](./old-examples/change_font_weight_by_custom_field_on_issue_list.js)
