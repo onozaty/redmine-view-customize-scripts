@@ -39,7 +39,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [チケットの説明を非表示に](./old-examples/hide_issue_description.js)
 * [リポジトリタブでのデフォルトブランチを変更](./old-examples/change_default_branch_on_repository_tab.js)
 * [カスタムフィールドの値でチケット一覧のフォントをBoldに変える](./old-examples/change_font_weight_by_custom_field_on_issue_list.js)
 * [子チケット一覧に親子関係を外すボタンを追加し、ボタン押下時にREST APIを使って親チケットの情報をクリアする](./old-examples/add_button_use_rest_api.js)
