@@ -28,6 +28,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Decorate the issue list / チケット一覧を装飾](./examples/0002.decorate_issue_list/example.md)  
 * [Add a progress value to the issue list / チケット一覧に進捗の値を追加](./examples/0010.add_progress_value_to_issue_list/example.md)  
 * [Change the version when the status is changed from the context menu of the issue list / チケット一覧のコンテキストメニューからステータスを変更した際に、バージョン番号も変更](./examples/0013.change_version_when_status_change_from_context_menu/example.md)
+* [Change the font of the ticket list according to the value of the custom field / カスタムフィールドの値に応じて、チケットリストのフォントを変更](./examples/0016.change_font_of_issue_list_by_custom_field/example.md)
 
 ### Other / その他
 
@@ -40,7 +41,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [カスタムフィールドの値でチケット一覧のフォントをBoldに変える](./old-examples/change_font_weight_by_custom_field_on_issue_list.js)
 * [子チケット一覧に親子関係を外すボタンを追加し、ボタン押下時にREST APIを使って親チケットの情報をクリアする](./old-examples/add_button_use_rest_api.js)
 * [チケット作成、編集画面の作成/送信ボタンにaccesskeyを追加する](./old-examples/add_accesskey_on_issue_submit_button.js)
 * [長いテキストを幅広く表示する](./old-examples/display_long_text_wide.js)
