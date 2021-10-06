@@ -18,6 +18,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Change the visibility of custom fields by status / チケットのステータスに応じて、カスタムフィールドの表示/非表示を切り替える](./examples/0008.change_custom_field_visibility_by_status/example.md)
 * [Display custom field checkboxes in two columns / カスタムフィールドのチェックボックスを2列で表示](./examples/0011.custom_field_checkbox_two_columns/example.md)
 * [Display custom field checkboxes horizontally / カスタムフィールドのチェックボックスを横並びで表示](./examples/0012.custom_field_checkbox_horizontally/example.md)
+* [Add an accesskey to the submit button of the issue / チケットの送信ボタンにアクセスキーを追加](./examples/0017.add_accesskey_on_issue_submit_button/example.md)
 
 ### Issue detail / チケット詳細
 
@@ -41,7 +42,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [チケット作成、編集画面の作成/送信ボタンにaccesskeyを追加する](./old-examples/add_accesskey_on_issue_submit_button.js)
 * [長いテキストを幅広く表示する](./old-examples/display_long_text_wide.js)
 * [担当者を入力補完を利用して選択する](./old-examples/autocomplete_assigned_to.js)
 * [REST APIを利用して複数の子チケットをまとめて作成する(バージョン1.2.0以上)](./old-examples/create_children_issues_using_rest_api.js)
