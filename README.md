@@ -19,6 +19,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Display custom field checkboxes in two columns / カスタムフィールドのチェックボックスを2列で表示](./examples/0011.custom_field_checkbox_two_columns/example.md)
 * [Display custom field checkboxes horizontally / カスタムフィールドのチェックボックスを横並びで表示](./examples/0012.custom_field_checkbox_horizontally/example.md)
 * [Add an accesskey to the submit button of the issue / チケットの送信ボタンにアクセスキーを追加](./examples/0017.add_accesskey_on_issue_submit_button/example.md)
+* [Add a search function to the selectbox / セレクトボックスに検索機能を追加](./examples/0018.add_search_function_to_selectbox/example.md)
 
 ### Issue detail / チケット詳細
 
