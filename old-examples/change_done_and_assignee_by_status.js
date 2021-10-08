@@ -1,5 +1,6 @@
 /*
-Insertion position: Bottom of issue form(チケット入力欄の下)
+Path Pattern: /issues/
+Insertion position: Head of all pages(全ページのヘッダ)
 Type: JavaScript
 
 ステータス毎に進捗率と担当者を変更する
