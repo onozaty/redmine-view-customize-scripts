@@ -45,7 +45,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [担当者を入力補完を利用して選択する](./old-examples/autocomplete_assigned_to.js)
 * [REST APIを利用して複数の子チケットをまとめて作成する(バージョン1.2.0以上)](./old-examples/create_children_issues_using_rest_api.js)
 * [REST APIを利用して複数の関連チケットをまとめて作成する(バージョン1.2.0以上)](./old-examples/create_relation_issues_using_rest_api.js)
 * [REST APIを利用して親チケットの情報をクリアする(バージョン1.2.0以上)](./old-examples/delete_parentage_relationship_using_rest_api.js)
