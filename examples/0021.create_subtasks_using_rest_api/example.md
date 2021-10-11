@@ -34,13 +34,13 @@ HTML
 ```javascript
 $(function() {
 
-  var trackerId = $('#issue_tracker_id').val();
-  var subject = $('#issue_subject').val();
-  var priorityId = $('#issue_priority_id').val();
-  var parentIssueId =  ViewCustomize.context.issue.id;
+  const trackerId = $('#issue_tracker_id').val();
+  const subject = $('#issue_subject').val();
+  const priorityId = $('#issue_priority_id').val();
+  const parentIssueId =  ViewCustomize.context.issue.id;
 
   // Defining subtasks 
-  var issueChildren = [
+  const issueChildren = [
     {
       'issue': {
         'tracker_id': trackerId,
@@ -67,7 +67,7 @@ $(function() {
     }
   ];
 
-  var link = $('<a title="Batch creation of subtasks" class="icon icon-add" href="#">Batch creation of subtasks</a>');
+  const link = $('<a title="Batch creation of subtasks" class="icon icon-add" href="#">Batch creation of subtasks</a>');
   $('#issue_tree').before($('<p>').append(link));
 
   link.on('click', function() {
@@ -77,10 +77,10 @@ $(function() {
     }
 
     // Execute the subtask creation process (asynchronous) sequentially and reload at the end.
-    var defer = $.Deferred();
-    var promise = defer.promise();
+    const defer = $.Deferred();
+    let promise = defer.promise();
 
-    for (var i = 0; i < issueChildren.length; i++) {
+    for (let i = 0; i < issueChildren.length; i++) {
       promise = promise.then(createIssue(issueChildren[i]));
     }
 
