@@ -47,7 +47,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [REST APIを利用して親チケットの情報をクリアする(バージョン1.2.0以上)](./old-examples/delete_parentage_relationship_using_rest_api.js)
 * [子チケット作成時に親チケットの情報を引き継ぐ(バージョン1.2.0以上)](./old-examples/take_over_information_when_adding_child_issue.js)
 * [クリップボードから画像を貼り付ける(バージョン1.2.0以上)](./old-examples/copy_image_from_clipboard.js)
 * [テキストエリアで入力補完(バージョン2.1.0以上)](./old-examples/input_suggestion_on_textarea.html)
