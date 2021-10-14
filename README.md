@@ -28,6 +28,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Move custom field to after description / カスタムフィールドを説明の後ろに移動](./examples/0014.move_custom_field_to_after_description/example.md)
 * [Create a subtask using the REST API / REST APIを使って子チケットを作成](./examples/0021.create_subtasks_using_rest_api/example.md)
 * [Create a related issues using the REST API / REST APIを使って関連チケットを作成](./examples/0022.create_related_issues_using_rest_api/example.md)
+* [When creating a child issue, the information from the parent issue is used / 子チケット作成時に親チケットの情報を利用](./examples/0023.when_create_child_use_parent_infomation/example.md)
 
 ### Issues list / チケット一覧
 
@@ -47,7 +48,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [子チケット作成時に親チケットの情報を引き継ぐ(バージョン1.2.0以上)](./old-examples/take_over_information_when_adding_child_issue.js)
 * [クリップボードから画像を貼り付ける(バージョン1.2.0以上)](./old-examples/copy_image_from_clipboard.js)
 * [テキストエリアで入力補完(バージョン2.1.0以上)](./old-examples/input_suggestion_on_textarea.html)
 * [プロジェクトを変更したら、強制的に担当者を変更する(バージョン1.2.0以上)](./old-examples/change_assignee_when_change_project.js)
