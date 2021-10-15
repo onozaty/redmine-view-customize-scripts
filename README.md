@@ -48,7 +48,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [クリップボードから画像を貼り付ける(バージョン1.2.0以上)](./old-examples/copy_image_from_clipboard.js)
 * [テキストエリアで入力補完(バージョン2.1.0以上)](./old-examples/input_suggestion_on_textarea.html)
 * [プロジェクトを変更したら、強制的に担当者を変更する(バージョン1.2.0以上)](./old-examples/change_assignee_when_change_project.js)
 * [カスタムフィールドの入力欄をトラッカーの後ろに移動(バージョン1.2.0以上)](./old-examples/move_custom_filed_input_after_tracker.js)
