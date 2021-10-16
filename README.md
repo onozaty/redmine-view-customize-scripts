@@ -45,6 +45,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Change the URL of the link to each project in the project list / プロジェクト一覧の各プロジェクトへのリンクのURLを変更](./examples/0006.change_project_link_url/example.md)  
 * [Add a new issue tab (and "+" button available) / 新しいチケットタブを追加 ("+"ボタンと両立)](./examples/0009.add_new_issue_tab/example.md)  
 * [Change the default branch on the Repository tab / リポジトリタブのデフォルトブランチを変更](./examples/0015.change_default_branch_on_repository_tab/example.md)  
+* [Paste image from clipboard / クリップボードから画像を貼り付け可能に](./examples/0024.paste_image_from_clipboard/example.md)  
 
 ### Old
 
