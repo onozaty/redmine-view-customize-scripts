@@ -23,6 +23,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Change done and assignee by status / ステータス毎に進捗率と担当者を変更](./examples/0019.change_done_and_assignee_by_status/example.md)
 * [Automatically sets each item at the close of the issue / ステータスを終了にした時に、各項目を自動的に設定](./examples/0020.when_status_closed_set_items/example.md)
 * [Force the assignee to change when the project is changed / プロジェクトを変更したら、担当者を強制的に変更](./examples/0026.force_assignee_change_when_project_changed/example.md)
+* [Move custom field to after the tracker / カスタムフィールドをトラッカーの後に移動](./examples/0027.move_custom_field_to_after_tracker/example.md)
 
 ### Issue detail / チケット詳細
 
@@ -51,7 +52,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [カスタムフィールドの入力欄をトラッカーの後ろに移動(バージョン1.2.0以上)](./old-examples/move_custom_filed_input_after_tracker.js)
 * [プロジェクトを変更したら、ウォッチャーを変更する(バージョン1.2.0以上)](./old-examples/change_watcher_when_change_project.js)
 * [特定のプロジェクトでファイル添付を非表示にする](./old-examples/hide_attachments_form.css)
 * [カスタムフィールドを3カラムで表示する(バージョン1.2.0以上)](./old-examples/change_3column_custom_fields.js)
