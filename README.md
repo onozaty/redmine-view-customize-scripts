@@ -25,6 +25,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Force the assignee to change when the project is changed / プロジェクトを変更したら、担当者を強制的に変更](./examples/0026.force_assignee_change_when_project_changed/example.md)
 * [Move custom field to after the tracker / カスタムフィールドをトラッカーの後に移動](./examples/0027.move_custom_field_to_after_tracker/example.md)
 * [When the project is changed, the watcher is also changed / プロジェクトを変更した時に、ウオッチャーを変更](./examples/0028.when_project_changed_watcher_also_changed/example.md)
+* [Hide file attachments in a specific project / 特定のプロジェクトでファイル添付を非表示に](./examples/0029.hide_attachments_form/example.md)
 
 ### Issue detail / チケット詳細
 
@@ -53,7 +54,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [特定のプロジェクトでファイル添付を非表示にする](./old-examples/hide_attachments_form.css)
 * [カスタムフィールドを3カラムで表示する(バージョン1.2.0以上)](./old-examples/change_3column_custom_fields.js)
 * [親のカスタムフィールドが選択されたら、子のカスタムフィールドも入力可能に(バージョン1.2.0以上)](./old-examples/enable_when_custom_field_selected.js)
 * [期日の3日前になったら警告を表示(バージョン1.2.0以上)](./old-examples/show_alert_on_due_date.js)
