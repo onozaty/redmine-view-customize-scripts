@@ -27,6 +27,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [When the project is changed, the watcher is also changed / プロジェクトを変更した時に、ウオッチャーを変更](./examples/0028.when_project_changed_watcher_also_changed/example.md)
 * [Hide file attachments in a specific project / 特定のプロジェクトでファイル添付を非表示に](./examples/0029.hide_attachments_form/example.md)
 * [Displays the custom fields in three columns / カスタムフィールドを3列で表示](./examples/0030.change_3column_custom_fields/example.md)
+* [When the parent custom field is selected, the child custom fields will be enabled / 親のカスタムフィールドが選択されたら、子のカスタムフィールドも入力可能に](./examples/0031.enable_child_when_parent_selected/example.md)
 
 ### Issue detail / チケット詳細
 
@@ -55,7 +56,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [親のカスタムフィールドが選択されたら、子のカスタムフィールドも入力可能に(バージョン1.2.0以上)](./old-examples/enable_when_custom_field_selected.js)
 * [期日の3日前になったら警告を表示(バージョン1.2.0以上)](./old-examples/show_alert_on_due_date.js)
 * [チェックされたらテキストボックスを無効化(バージョン1.2.0以上)](./old-examples/disable_text_depending_on_checked.js)
 * [特定ユーザの削除、ロックボタンを非表示にする](./old-examples/hide_lock_button_and_delete_button.css)
