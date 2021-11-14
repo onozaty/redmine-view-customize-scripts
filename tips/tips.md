@@ -12,3 +12,10 @@ $('#issue-form').on('submit', function() {
 });
 ```
 
+## Check the roles
+
+```javascript
+const hasRoleId3 = ViewCustomize.context.project.roles.some(function(role) { return role.id == 3 });
+```
+
+* https://github.com/onozaty/redmine-view-customize#viewcustomizecontext-javascript
