@@ -65,3 +65,8 @@ If this project serves you well, please support this project as a [sponsor](http
 * [親チケットが設定されたらカスタムフィールドを無効に](./old-examples/disable_if_parent_issue_is_set.js)
 * [チケットタブでのデフォルトクエリ変更](./old-examples/change_issue_default_query.js)
 * [チケット一覧を折りたたんだ状態で表示する](./old-examples/folded_issues.js)
+
+## Tips
+
+* [Tips](./tips/tips.md)
+
