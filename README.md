@@ -35,6 +35,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Create a subtask using the REST API / REST APIを使って子チケットを作成](./examples/0021.create_subtasks_using_rest_api/example.md)
 * [Create a related issues using the REST API / REST APIを使って関連チケットを作成](./examples/0022.create_related_issues_using_rest_api/example.md)
 * [When creating a child issue, the information from the parent issue is used / 子チケット作成時に親チケットの情報を利用](./examples/0023.when_create_child_use_parent_infomation/example.md)
+* [Display a warning three days before the due date / 期日の3日前になったら警告を表示](./examples/0032.display_warning_3days_before_due_date/example.md)
 
 ### Issues list / チケット一覧
 
@@ -56,7 +57,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [期日の3日前になったら警告を表示(バージョン1.2.0以上)](./old-examples/show_alert_on_due_date.js)
 * [チェックされたらテキストボックスを無効化(バージョン1.2.0以上)](./old-examples/disable_text_depending_on_checked.js)
 * [特定ユーザの削除、ロックボタンを非表示にする](./old-examples/hide_lock_button_and_delete_button.css)
 * [特定ユーザに対して一部管理者メニューを非表示にする](./old-examples/hide_part_of_admin_menu.js)
