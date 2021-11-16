@@ -28,6 +28,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Hide file attachments in a specific project / 特定のプロジェクトでファイル添付を非表示に](./examples/0029.hide_attachments_form/example.md)
 * [Displays the custom fields in three columns / カスタムフィールドを3列で表示](./examples/0030.change_3column_custom_fields/example.md)
 * [When the parent custom field is selected, the child custom fields will be enabled / 親のカスタムフィールドが選択されたら、子のカスタムフィールドも入力可能に](./examples/0031.enable_child_when_parent_selected/example.md)
+* [Disable text if checked / チェックされたらテキストを無効に](./examples/0033.disable_text_if_checked/example.md)
 
 ### Issue detail / チケット詳細
 
@@ -57,7 +58,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [チェックされたらテキストボックスを無効化(バージョン1.2.0以上)](./old-examples/disable_text_depending_on_checked.js)
 * [特定ユーザの削除、ロックボタンを非表示にする](./old-examples/hide_lock_button_and_delete_button.css)
 * [特定ユーザに対して一部管理者メニューを非表示にする](./old-examples/hide_part_of_admin_menu.js)
 * [特定の日以降は新規チケットのリンクを非表示に](./old-examples/hide_new_issue_link_after_date.js)
