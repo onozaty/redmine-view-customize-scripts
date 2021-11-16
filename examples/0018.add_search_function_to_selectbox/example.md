@@ -100,17 +100,28 @@ $(function() {
       .hide()
       .after($autocomplete);
 
-    // Replace 'Assign to me' so that it also reflects when click on it.
-    $('.assign-to-me-link').on('click', function(event) {
-      event.preventDefault();
-      const element = $(event.target);
-      $('#issue_assigned_to_id').val(element.data('id')).change();
-      element.hide();
-    });
+    if (selectElement == '#issue_assigned_to_id') {
+      // Replace 'Assign to me' so that it also reflects when click on it.
+      $('.assign-to-me-link').on('click', function(event) {
+        event.preventDefault();
+        const element = $(event.target);
+        $('#issue_assigned_to_id').val(element.data('id')).change();
+        element.hide();
+      });
+    }
   }
 
   replaceSelectToAutocomplete('#issue_assigned_to_id');
 });
+```
+
+## Note
+
+This can be applied not only to the assignee, but also to a list of custom fields, etc.  
+担当者だけでなく、リストのカスタムフィールドなどにも適用できます。
+
+```javascript
+replaceSelectToAutocomplete('#issue_custom_field_values_1');
 ```
 
 ## Result
