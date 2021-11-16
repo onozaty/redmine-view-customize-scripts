@@ -56,10 +56,10 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Paste image from clipboard / クリップボードから画像を貼り付け可能に](./examples/0024.paste_image_from_clipboard/example.md)  
 * [Inline autocomplete in textarea / テキストエリアで入力補完](./examples/0025.auto_complete_in_textarea/example.md)  
 * [Hide the delete and lock buttons for specific user / 特定ユーザの削除、ロックボタンを非表示に](./examples/0034.hide_delete_and_lock_buttons_for_specific_user/example.md)  
+* [Hide some administrator menus for specific user / 特定ユーザに対して一部管理者メニューを非表示に](./examples/0035.hide_some_administrator_menus_for_specific_user/example.md)  
 
 ### Old
 
-* [特定ユーザに対して一部管理者メニューを非表示にする](./old-examples/hide_part_of_admin_menu.js)
 * [特定の日以降は新規チケットのリンクを非表示に](./old-examples/hide_new_issue_link_after_date.js)
 * [チケット一覧横のSummaryリンクを非表示に](./old-examples/hide_issue_summary_link.css)
 * [親チケットが設定されたらカスタムフィールドを無効に](./old-examples/disable_if_parent_issue_is_set.js)
