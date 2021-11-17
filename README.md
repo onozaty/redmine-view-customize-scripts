@@ -43,7 +43,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Decorate the issue list / チケット一覧を装飾](./examples/0002.decorate_issue_list/example.md)  
 * [Add a progress value to the issue list / チケット一覧に進捗の値を追加](./examples/0010.add_progress_value_to_issue_list/example.md)  
 * [Change the version when the status is changed from the context menu of the issue list / チケット一覧のコンテキストメニューからステータスを変更した際に、バージョン番号も変更](./examples/0013.change_version_when_status_change_from_context_menu/example.md)
-* [Change the font of the ticket list according to the value of the custom field / カスタムフィールドの値に応じて、チケットリストのフォントを変更](./examples/0016.change_font_of_issue_list_by_custom_field/example.md)
+* [Change the font of the issue list according to the value of the custom field / カスタムフィールドの値に応じて、チケットリストのフォントを変更](./examples/0016.change_font_of_issue_list_by_custom_field/example.md)
 
 ### Other / その他
 
@@ -57,10 +57,10 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Inline autocomplete in textarea / テキストエリアで入力補完](./examples/0025.auto_complete_in_textarea/example.md)  
 * [Hide the delete and lock buttons for specific user / 特定ユーザの削除、ロックボタンを非表示に](./examples/0034.hide_delete_and_lock_buttons_for_specific_user/example.md)  
 * [Hide some administrator menus for specific user / 特定ユーザに対して一部管理者メニューを非表示に](./examples/0035.hide_some_administrator_menus_for_specific_user/example.md)  
+* [Hide the new issue link after a specific date / 指定の日以降は新規チケットのリンクを非表示に](./examples/0036.hide_new_issue_link_after_specific_date/example.md)
 
 ### Old
 
-* [特定の日以降は新規チケットのリンクを非表示に](./old-examples/hide_new_issue_link_after_date.js)
 * [チケット一覧横のSummaryリンクを非表示に](./old-examples/hide_issue_summary_link.css)
 * [親チケットが設定されたらカスタムフィールドを無効に](./old-examples/disable_if_parent_issue_is_set.js)
 * [チケットタブでのデフォルトクエリ変更](./old-examples/change_issue_default_query.js)
