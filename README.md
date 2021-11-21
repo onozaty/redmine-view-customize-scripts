@@ -29,6 +29,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Displays the custom fields in three columns / カスタムフィールドを3列で表示](./examples/0030.change_3column_custom_fields/example.md)
 * [When the parent custom field is selected, the child custom fields will be enabled / 親のカスタムフィールドが選択されたら、子のカスタムフィールドも入力可能に](./examples/0031.enable_child_when_parent_selected/example.md)
 * [Disable text if checked / チェックされたらテキストを無効に](./examples/0033.disable_text_if_checked/example.md)
+* [Disable custom field if parent issue is set / 親チケットが設定されたらカスタムフィールドを無効に](./examples/0038.disable_custom_field_if_parent_issue_is_set/example.md)
 
 ### Issue detail / チケット詳細
 
@@ -62,7 +63,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [親チケットが設定されたらカスタムフィールドを無効に](./old-examples/disable_if_parent_issue_is_set.js)
 * [チケットタブでのデフォルトクエリ変更](./old-examples/change_issue_default_query.js)
 * [チケット一覧を折りたたんだ状態で表示する](./old-examples/folded_issues.js)
 
