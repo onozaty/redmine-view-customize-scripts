@@ -44,6 +44,7 @@ If this project serves you well, please support this project as a [sponsor](http
 * [Add a progress value to the issue list / チケット一覧に進捗の値を追加](./examples/0010.add_progress_value_to_issue_list/example.md)  
 * [Change the version when the status is changed from the context menu of the issue list / チケット一覧のコンテキストメニューからステータスを変更した際に、バージョン番号も変更](./examples/0013.change_version_when_status_change_from_context_menu/example.md)
 * [Change the font of the issue list according to the value of the custom field / カスタムフィールドの値に応じて、チケットリストのフォントを変更](./examples/0016.change_font_of_issue_list_by_custom_field/example.md)
+* [Hide Summary link in issue list / チケット一覧のサマリーリンクを表示に](./examples/0037.hide_summary_link_in_issue_list/example.md)
 
 ### Other / その他
 
@@ -61,7 +62,6 @@ If this project serves you well, please support this project as a [sponsor](http
 
 ### Old
 
-* [チケット一覧横のSummaryリンクを非表示に](./old-examples/hide_issue_summary_link.css)
 * [親チケットが設定されたらカスタムフィールドを無効に](./old-examples/disable_if_parent_issue_is_set.js)
 * [チケットタブでのデフォルトクエリ変更](./old-examples/change_issue_default_query.js)
 * [チケット一覧を折りたたんだ状態で表示する](./old-examples/folded_issues.js)
