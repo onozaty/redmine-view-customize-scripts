@@ -49,6 +49,7 @@ This is because it is difficult to take the time to review scripts created by ot
 * [Change the version when the status is changed from the context menu of the issue list / チケット一覧のコンテキストメニューからステータスを変更した際に、バージョン番号も変更](./examples/0013.change_version_when_status_change_from_context_menu/example.md)
 * [Change the font of the issue list according to the value of the custom field / カスタムフィールドの値に応じて、チケットリストのフォントを変更](./examples/0016.change_font_of_issue_list_by_custom_field/example.md)
 * [Hide Summary link in issue list / チケット一覧のサマリーリンクを表示に](./examples/0037.hide_summary_link_in_issue_list/example.md)
+* [Change the default query in the Issues tab / チケットタブでのデフォルトクエリの変更](./examples/0039.change_default_query_in_issues_tab/example.md)
 
 ### Other / その他
 
@@ -66,7 +67,6 @@ This is because it is difficult to take the time to review scripts created by ot
 
 ### Old
 
-* [チケットタブでのデフォルトクエリ変更](./old-examples/change_issue_default_query.js)
 * [チケット一覧を折りたたんだ状態で表示する](./old-examples/folded_issues.js)
 
 ## Tips
