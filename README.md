@@ -9,6 +9,9 @@ If the code you try does not work, you can ask a question via the project's [Iss
 This project is maintained by [@onozaty](https://github.com/onozaty), the author of the View customize plugin.  
 If this project serves you well, please support this project as a [sponsor](https://github.com/sponsors/onozaty).
 
+Currently, i am not accepting pull requests for additional scripts.  
+This is because it is difficult to take the time to review scripts created by other users and to maintain them in the future.
+
 ## Examples 
 
 ### Issue input / チケット入力
