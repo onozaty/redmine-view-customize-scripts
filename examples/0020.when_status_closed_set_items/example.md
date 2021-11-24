@@ -43,7 +43,7 @@ $(function () {
       if ($('#issue_due_date').val() == '') {
         const today = $.datepicker.formatDate('yy-mm-dd', new Date());
         $('#issue_due_date').val(today);
-       }
+      }
 
       $('#issue_done_ratio').val('100');
     }
