@@ -50,6 +50,7 @@ This is because it is difficult to take the time to review scripts created by ot
 * [Change the font of the issue list according to the value of the custom field / カスタムフィールドの値に応じて、チケットリストのフォントを変更](./examples/0016.change_font_of_issue_list_by_custom_field/example.md)
 * [Hide Summary link in issue list / チケット一覧のサマリーリンクを表示に](./examples/0037.hide_summary_link_in_issue_list/example.md)
 * [Change the default query in the Issues tab / チケットタブでのデフォルトクエリの変更](./examples/0039.change_default_query_in_issues_tab/example.md)
+* [Displays the issue list in a collapsed state / チケット一覧を折りたたんだ状態で表示](./examples/0040.displays_issue_list_in_collapsed/example.md)
 
 ### Other / その他
 
@@ -65,11 +66,11 @@ This is because it is difficult to take the time to review scripts created by ot
 * [Hide some administrator menus for specific user / 特定ユーザに対して一部管理者メニューを非表示に](./examples/0035.hide_some_administrator_menus_for_specific_user/example.md)  
 * [Hide the new issue link after a specific date / 指定の日以降は新規チケットのリンクを非表示に](./examples/0036.hide_new_issue_link_after_specific_date/example.md)
 
-### Old
-
-* [チケット一覧を折りたたんだ状態で表示する](./old-examples/folded_issues.js)
-
 ## Tips
 
 * [Tips](./tips/tips.md)
+
+### Old
+
+* [Old examples](./old-examples/)
 
