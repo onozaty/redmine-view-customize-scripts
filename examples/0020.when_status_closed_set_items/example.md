@@ -5,7 +5,7 @@ Set the following items when the status is closed.
 
 * 100% done  
 進捗率を100%に
-* If due date is not entered, set it to today
+* If due date is not entered, set it to today  
 期日が未入力なら今日を設定
 
 ## Setting
