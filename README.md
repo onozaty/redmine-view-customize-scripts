@@ -65,6 +65,7 @@ This is because it is difficult to take the time to review scripts created by ot
 * [Hide the delete and lock buttons for specific user / 特定ユーザの削除、ロックボタンを非表示に](./examples/0034.hide_delete_and_lock_buttons_for_specific_user/example.md)  
 * [Hide some administrator menus for specific user / 特定ユーザに対して一部管理者メニューを非表示に](./examples/0035.hide_some_administrator_menus_for_specific_user/example.md)  
 * [Hide the new issue link after a specific date / 指定の日以降は新規チケットのリンクを非表示に](./examples/0036.hide_new_issue_link_after_specific_date/example.md)
+* [Show banner / バナーを表示](./examples/0041.show_banner/example.md)
 
 ## Tips
 
