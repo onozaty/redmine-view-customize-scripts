@@ -19,3 +19,17 @@ const hasRoleId3 = ViewCustomize.context.project.roles.some(function(role) { ret
 ```
 
 * https://github.com/onozaty/redmine-view-customize#viewcustomizecontext-javascript
+
+## Check the value before the change
+
+The previous value should be saved.
+
+```javascript
+const target = '#issue_assigned_to_id';
+let prevValue = $(target).val();
+
+$(target).on('change', function() {
+  console.log('old:' + prevValue + ' new:' + $(target).val());
+  prevValue = $(target).val();
+});
+```
