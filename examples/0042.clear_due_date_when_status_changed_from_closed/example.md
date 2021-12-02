@@ -7,11 +7,11 @@ Clear due date when changing the status from closed to other status.
 
 ### Path Pattern
 
-None
+`/issues/`
 
 ### Insert Position
 
-Bottom of issue form
+Head of all pages
 <!-- 
 Head of all pages
 Bottom of issue form
@@ -31,14 +31,13 @@ HTML
 ```javascript
 $(function() {
 
-  let prevIssueStatusId = $('#issue_status_id').val();
+  const beforeIssueStatusId = $('#issue_status_id').val();
 
-  $('#issue_status_id').on('change', function() {
-    if (prevIssueStatusId == '5') {
+  $('#all_attributes').on('change', '#issue_status_id', function() {
+
+    if (beforeIssueStatusId == '5') {
       $('#issue_due_date').val('');
     }
-
-    prevIssueStatusId = $('#issue_status_id').val();
   });
 });
 ```
