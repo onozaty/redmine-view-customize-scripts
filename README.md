@@ -68,6 +68,7 @@ This is because it is difficult to take the time to review scripts created by ot
 * [Hide some administrator menus for specific user / 特定ユーザに対して一部管理者メニューを非表示に](./examples/0035.hide_some_administrator_menus_for_specific_user/example.md)  
 * [Hide the new issue link after a specific date / 指定の日以降は新規チケットのリンクを非表示に](./examples/0036.hide_new_issue_link_after_specific_date/example.md)
 * [Show banner / バナーを表示](./examples/0041.show_banner/example.md)
+* [Allow only some users to create Administrators / 一部のユーザでしかAdministratorを作成できないようにする](./examples/0044.allow_only_some_users_to_create_admin/example.md)  
 
 ## Tips
 
