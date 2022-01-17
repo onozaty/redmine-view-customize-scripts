@@ -34,22 +34,28 @@ HTML
 ```javascript
 $(function() {
 
+  const setup = function(fieldSelector) {
+
+    const field = $(fieldSelector);
+
+    const applyStyle = function() {
+
+      // If blank or 0, the background color will be pink
+      if (field.val() == '' || field.val() == '0') {
+        field.css({'background-color': 'pink'});
+      } else {
+        field.css({'background-color': ''});
+      }
+    };
+
+    field.on('change', applyStyle);
+
+    applyStyle();
+  }
+
   // Note: Change the ID according to the custom field you want to target.
-  const field = $('#issue_custom_field_values_1');
+  setup('#issue_custom_field_values_1');
 
-  const applyStyle = function() {
-
-    // If blank or 0, the background color will be pink
-    if (field.val() == '' || field.val() == '0') {
-      field.css({'background-color': 'pink'});
-    } else {
-      field.css({'background-color': ''});
-    }
-  };
-
-  field.on('change', applyStyle);
-
-  applyStyle();
 });
 ```
 
