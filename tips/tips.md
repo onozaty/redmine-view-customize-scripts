@@ -40,8 +40,8 @@ By using Redmine REST API, you can get information about issues that are not dis
 
 * [Rest Issues \- Redmine](https://www.redmine.org/projects/redmine/wiki/Rest_Issues)
 
-However, this can be very complicated and is not recommended.  
-Only use it if you can understand how it works.
+However, this can be very complicated.  
+It is recommended that you use it only if you understand how it works.
 
 ```javascript
 const issueId = 1;
