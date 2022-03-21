@@ -145,7 +145,7 @@ This is an example of data that can be fetched by the API.
 const val = $('#issue_custom_field_values_1').val();
 ```
 
-In the case of boolean, it is as follows.
+In the case of a checkbox, it is as follows.
 
 ```javascript
 // checked: 1, unchecked: undefined
@@ -155,4 +155,10 @@ const val = $('#issue_custom_field_values_1:checked').val();
 ```javascript
 // checked: true, unchecked: false
 const val = $('#issue_custom_field_values_1').prop('checked');
+```
+
+In the case of a radio, it is as follows.
+
+```javascript
+const val = $('input[name="issue[custom_field_values][1]"]:checked').val();
 ```
