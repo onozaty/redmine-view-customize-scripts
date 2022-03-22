@@ -162,3 +162,14 @@ In the case of a radio, it is as follows.
 ```javascript
 const val = $('input[name="issue[custom_field_values][1]"]:checked').val();
 ```
+
+## Get the value of a project custom field
+
+Use `ViewCustomize.context`.
+
+* https://github.com/onozaty/redmine-view-customize#viewcustomizecontext-javascript
+
+```javascript
+const field = ViewCustomize.context.project.customFields.find(x => x.id == 1);
+const value = (field == undefined) ? undefined : field.value;
+```
