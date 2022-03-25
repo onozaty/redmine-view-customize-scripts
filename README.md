@@ -36,6 +36,7 @@ This is because it is difficult to take the time to review scripts created by ot
 * [Clear due date when status is changed from closed / ステータスを終了から変更した際に期日をクリア](./examples/0042.clear_due_date_when_status_changed_from_closed/example.md)
 * [Change the style according to the input value of the custom field / カスタムフィールドの入力値に応じてスタイルを変更](./examples/0043.change_style_according_to_input_value/example.md)
 * [Move the long text custom field to after the description / 長いテキストのカスタムフィールドをトラッカーの後に移動](./examples/0045.move_long_text_custom_field_to_after_description/example.md)
+* [Narrow down categories according to the tracker / トラッカーに応じてカテゴリを絞り込む](./examples/0046.narrow_down_categories_according_to_tracker/example.md)
 
 ### Issue detail / チケット詳細
 
