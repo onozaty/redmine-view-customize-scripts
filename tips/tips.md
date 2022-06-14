@@ -34,6 +34,19 @@ $(target).on('change', function() {
 });
 ```
 
+For status and other forms that replace the form itself when changed, the following must be done.  
+"Insertion position" should be `Head of all pages`.
+
+```javascript
+const target = '#issue_status_id';
+let prevValue = $(target).val();
+
+$('#all_attributes').on('change', target, function() {
+  console.log('old:' + prevValue + ' new:' + $(target).val());
+  prevValue = $(target).val();
+});
+```
+
 ## Using the REST API to fetch issue
 
 By using Redmine REST API, you can get information about issues that are not displayed on the screen.
