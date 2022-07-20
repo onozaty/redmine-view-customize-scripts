@@ -38,6 +38,7 @@ This is because it is difficult to take the time to review scripts created by ot
 * [Move the long text custom field to after the description / 長いテキストのカスタムフィールドをトラッカーの後に移動](./examples/0045.move_long_text_custom_field_to_after_description/example.md)
 * [Narrow down categories according to the tracker / トラッカーに応じてカテゴリを絞り込む](./examples/0046.narrow_down_categories_according_to_tracker/example.md)
 * [Change the visibility of custom fields by categories / カテゴリ毎にカスタムフィールドの表示/非表示を切り替え](./examples/0047.change_visibility_of_custom_fields_by_categories/example.md)
+* [Change the height of the description textarea / 説明欄のテキストエリアの高さを変更](./examples/0049.change_height_of_description_textarea/example.md)
 
 
 ### Issue detail / チケット詳細
