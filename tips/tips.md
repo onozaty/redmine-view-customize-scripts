@@ -176,6 +176,12 @@ In the case of a radio, it is as follows.
 const val = $('input[name="issue[custom_field_values][1]"]:checked').val();
 ```
 
+The label of a custom field in key/value list format is as follows.
+
+```javascript
+const label = $('#issue_custom_field_values_1 > option:selected').text();
+```
+
 ## Get the value of a project custom field
 
 Use `ViewCustomize.context`.
