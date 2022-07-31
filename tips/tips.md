@@ -192,3 +192,18 @@ Use `ViewCustomize.context`.
 const field = ViewCustomize.context.project.customFields.find(x => x.id == 1);
 const value = (field == undefined) ? undefined : field.value;
 ```
+
+## Set value for selectbox using the select2 library
+
+Some Redmine plugins make use of the select2 library.  
+
+The following considerations must be made when setting value in selectbox using the select2 library.
+
+* https://select2.org/programmatic-control/add-select-clear-items#selecting-options
+
+For example, if you want to set a value for an assignee, issue a change event afterwards.
+
+```javascript
+$('#issue_assigned_to_id').val('1');
+$('#issue_assigned_to_id').trigger('change');
+```
