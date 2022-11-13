@@ -40,6 +40,7 @@ This is because it is difficult to take the time to review scripts created by ot
 * [Change the visibility of custom fields by categories / カテゴリ毎にカスタムフィールドの表示/非表示を切り替え](./examples/0047.change_visibility_of_custom_fields_by_categories/example.md)
 * [Change the height of the description textarea / 説明欄のテキストエリアの高さを変更](./examples/0049.change_height_of_description_textarea/example.md)
 * [Display only Group in Assignee / 担当者にグループのみを表示](./examples/0050.display_only_group_in_assignee/example.md)
+* [Set the current date and time in a custom field when the status is changed / ステータスを変更したらカスタムフィールドに現在日時を設定する](./examples/0052.set_current_date_when_status_changed/example.md)
 
 ### Issue detail / チケット詳細
 
