@@ -27,7 +27,7 @@ This is because it is difficult to take the time to review scripts created by ot
 * [Automatically sets each item at the close of the issue / ステータスを終了にした時に、各項目を自動的に設定](./examples/0020.when_status_closed_set_items/example.md)
 * [Force the assignee to change when the project is changed / プロジェクトを変更したら、担当者を強制的に変更](./examples/0026.force_assignee_change_when_project_changed/example.md)
 * [Move custom field to after the tracker / カスタムフィールドをトラッカーの後に移動](./examples/0027.move_custom_field_to_after_tracker/example.md)
-* [When the project is changed, the watcher is also changed / プロジェクトを変更した時に、ウオッチャーを変更](./examples/0028.when_project_changed_watcher_also_changed/example.md)
+* [When the project is changed, the watcher is also changed / プロジェクトを変更した時に、ウォッチャーを変更](./examples/0028.when_project_changed_watcher_also_changed/example.md)
 * [Hide file attachments in a specific project / 特定のプロジェクトでファイル添付を非表示に](./examples/0029.hide_attachments_form/example.md)
 * [Displays the custom fields in three columns / カスタムフィールドを3列で表示](./examples/0030.change_3column_custom_fields/example.md)
 * [When the parent custom field is selected, the child custom fields will be enabled / 親のカスタムフィールドが選択されたら、子のカスタムフィールドも入力可能に](./examples/0031.enable_child_when_parent_selected/example.md)
