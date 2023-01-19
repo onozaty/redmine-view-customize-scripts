@@ -10,16 +10,17 @@ In this example, if you change the status ID to 6, the target version will be un
 
 ### Path Pattern
 
-`/issues$`
+None
 
 ### Insert Position
 
-Head of all pages
+Issues context menu
 <!-- 
 Head of all pages
 Bottom of issue form
 Bottom of issue detail
 Bottom of all pages
+Issues context menu
 -->
 
 ### Code
@@ -32,20 +33,8 @@ HTML
 -->
 
 ```javascript
-$(function() {
-
-  // Replace the show function in jQuery to add processing when the context menu is shown
-  jQuery.fn._show = jQuery.fn.show;
-
-  jQuery.fn.show = function() {
-    if (this.attr('id') == 'context-menu') {
-      const a = $('#context-menu a[href*="status_id%5D=6"]');
-      a.attr('href', a.attr('href') + '&issue%5Bfixed_version_id%5D=none');
-    }
-
-    return jQuery.fn._show.apply(this, arguments);
-  };
-});
+const a = $('#context-menu a[href*="status_id%5D=6"]');
+a.attr('href', a.attr('href') + '&issue%5Bfixed_version_id%5D=none');
 ```
 
 ## Result
