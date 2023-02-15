@@ -44,6 +44,7 @@ This is because it is difficult to take the time to review scripts created by ot
 * [Add a reply button / 返信ボタンを追加する](./examples/0053.add_reply_button/example.md)
 * [Change the visibility of child custom field by value of the parent custom field / 親のカスタムフィールドの値に応じて、子のカスタムフィールドの表示/非表示を切り替える](./examples/0054.change_child_custom_field_visibility_by_parent_custom_filed/example.md)
 * [Set author as default value for custom field / カスタムフィールドのデフォルト値として作成者を設定](./examples/0055.set_author_as_default_value_for_custom_field/example.md)
+* [Get address from postal code using Web API and set / Web APIを利用して郵便番号から住所を取得して設定](./examples/0056.get_address_from_zipcode_with_webapi/example.md)
 
 ### Issue detail / チケット詳細
 
