@@ -81,6 +81,7 @@ This is because it is difficult to take the time to review scripts created by ot
 * [Show banner / バナーを表示](./examples/0041.show_banner/example.md)
 * [Allow only some users to create Administrators / 一部のユーザでしかAdministratorを作成できないように](./examples/0044.allow_only_some_users_to_create_admin/example.md)  
 * [Add a check all link to the add user to group dialog / グループにユーザを追加するダイアログに、すべてをチェックするリンクを追加](./examples/0048.add_check_all_link_to_add_user_to_group/example.md)  
+* [Change the link in Projects to My projects / プロジェクトのリンクをMy projectsに変更](./examples/0057.change_link_in_projects_to_my_projects/example.md)
 
 ## Tips
 
