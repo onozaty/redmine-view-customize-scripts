@@ -12,6 +12,20 @@ $('#issue-form').on('submit', function() {
 });
 ```
 
+## Judge the creation and editing of an issue
+
+```javascript
+if ($('form.new_issue').length === 1) {
+  // new issue
+  console.log('new');
+}
+
+if ($('form.edit_issue').length === 1) {
+  // edit issue
+  console.log('edit');
+}
+```
+
 ## Check the roles
 
 ```javascript
