@@ -61,6 +61,89 @@ $('#all_attributes').on('change', target, function() {
 });
 ```
 
+## Using the REST API to create an issue
+
+By using the Redmine REST API, you can create an issue.
+
+* [Rest Issues \- Redmine](https://www.redmine.org/projects/redmine/wiki/Rest_Issues)
+
+```javascript
+const issue = {
+  'issue': {
+    'project_id': 1,
+    'tracker_id': 1,
+    'subject': 'XYZ: ' + new Date().toISOString()
+  }
+};
+
+$.ajax({
+  type: 'POST',
+  url: '/issues.json',
+  headers: {
+    'X-Redmine-API-Key': ViewCustomize.context.user.apiKey
+  },
+  dataType: 'json',
+  contentType: 'application/json',
+  data: JSON.stringify(issue)
+})
+.done(function(response) {
+  alert('Succeed. issue Id: ' + response.issue.id);
+})
+.fail(function() {
+  alert('Failed.');
+});
+```
+
+When creating parents and children together, do the following.
+
+```javascript
+const parentIssue = {
+  'issue': {
+    'project_id': 1,
+    'tracker_id': 1,
+    'subject': 'Parent: ' + new Date().toISOString()
+  }
+};
+
+const childIssue = {
+  'issue': {
+    'project_id': 1,
+    'tracker_id': 1,
+    'subject': 'Child: ' + new Date().toISOString()
+  }
+};
+
+$.ajax({
+  type: 'POST',
+  url: '/issues.json',
+  headers: {
+    'X-Redmine-API-Key': ViewCustomize.context.user.apiKey
+  },
+  dataType: 'json',
+  contentType: 'application/json',
+  data: JSON.stringify(parentIssue)
+})
+.then(function(response) {
+  childIssue.issue.parent_issue_id = response.issue.id;
+  return $.ajax({
+    type: 'POST',
+    url: '/issues.json',
+    headers: {
+      'X-Redmine-API-Key': ViewCustomize.context.user.apiKey
+    },
+    dataType: 'json',
+    contentType: 'application/json',
+    data: JSON.stringify(childIssue)
+  });
+})
+.done(function(response) {
+  alert('Succeed. parent issue Id: ' + response.issue.parent.id + ', child issue Id: ' + response.issue.id);
+})
+.fail(function() {
+  alert('Failed.');
+});
+```
+
 ## Using the REST API to fetch issue
 
 By using Redmine REST API, you can get information about issues that are not displayed on the screen.
