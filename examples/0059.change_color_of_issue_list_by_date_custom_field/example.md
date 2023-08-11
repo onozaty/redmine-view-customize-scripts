@@ -3,8 +3,13 @@
 Change the background color of the issue list according to the date of the custom field.  
 カスタムフィールドの日付に応じて、チケットリストの背景色を変更します。
 
-In this example, if the date in custom field ID:1 is in the future, the background color is pink.  
-この例では、カスタムフィールドID:1 の日付が未来の場合、背景色をピンクにします。
+This example changes the background color depending on the date of the custom field ID:1.  
+この例では、カスタムフィールドID:1の日付によって背景色を変えています。
+
+* Pink for future  
+未来はピンク
+* Yellow for past  
+黄色は過去
 
 ## Setting
 
@@ -37,20 +42,20 @@ $(function() {
   const now = new Date();
   const nowDate = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
-  $('table.issues td.cf_1')
-    .filter(function() {
-      const str = $(this).text();
-      if (str === '') {
-        return false;
-      }
+  $('table.issues td.cf_1').each(function() {
+    const target = $(this);
+    const str = target.text();
+    if (str === '') {
+      return;
+    }
 
-      const date = new Date(str);
-      return date > nowDate;
-    })
-    .parent()
-    .css({
-      'background-color': 'pink'
-    });
+    const date = new Date(str);
+    if (date > nowDate) {
+      target.parent().css({ 'background-color': 'pink' });
+    } else if (date < nowDate) {
+      target.parent().css({ 'background-color': 'yellow' });
+    }
+  });
 });
 ```
 
