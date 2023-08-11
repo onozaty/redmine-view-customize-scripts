@@ -62,6 +62,7 @@ This is because it is difficult to take the time to review scripts created by ot
 * [Add a progress value to the issue list / チケット一覧に進捗の値を追加](./examples/0010.add_progress_value_to_issue_list/example.md)  
 * [Change the version when the status is changed from the context menu of the issue list / チケット一覧のコンテキストメニューからステータスを変更した際に、バージョン番号も変更](./examples/0013.change_version_when_status_change_from_context_menu/example.md)
 * [Change the font of the issue list according to the value of the custom field / カスタムフィールドの値に応じて、チケットリストのフォントを変更](./examples/0016.change_font_of_issue_list_by_custom_field/example.md)
+* [Change the background color of the issue list according to the date of the custom field / カスタムフィールドの日付に応じて、チケットリストの背景色を変更](./examples/0059.change_color_of_issue_list_by_date_custom_field/example.md)
 * [Hide Summary link in issue list / チケット一覧のサマリーリンクを表示に](./examples/0037.hide_summary_link_in_issue_list/example.md)
 * [Change the default query in the Issues tab / チケットタブでのデフォルトクエリの変更](./examples/0039.change_default_query_in_issues_tab/example.md)
 * [Displays the issue list in a collapsed state / チケット一覧を折りたたんだ状態で表示](./examples/0040.displays_issue_list_in_collapsed/example.md)
