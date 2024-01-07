@@ -56,6 +56,7 @@ This is because it is difficult to take the time to review scripts created by ot
 * [When creating a child issue, the information from the parent issue is used / 子チケット作成時に親チケットの情報を利用](./examples/0023.when_create_child_use_parent_infomation/example.md)
 * [Display a warning three days before the due date / 期日の3日前になったら警告を表示](./examples/0032.display_warning_3days_before_due_date/example.md)
 * [Hide Add link in Subtask according to status / ステータスに応じて子チケットの追加リンクを非表示に](./examples/0051.hide_add_link_in_subtask_according_to_status/example.md)
+* [Display a warning when spent time exceeds estimated time / 作業時間が予定工数を超えたら警告を表示](./examples/0061.display_warning_exceeds_estimated_time/example.md)
 
 ### Issues list / チケット一覧
 
