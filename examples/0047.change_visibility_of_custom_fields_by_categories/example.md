@@ -51,7 +51,7 @@ $(function() {
   }
 
   changeVisible();
-  $('#issue_category_id').on('change', changeVisible());
+  $('#issue_category_id').on('change', changeVisible);
 });
 ```
 
