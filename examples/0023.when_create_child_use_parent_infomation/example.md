@@ -40,7 +40,10 @@ $(function() {
     'issue_fixed_version_id'
   ];
 
-  const addLink = $('#issue_tree a[href*="/issues/new"]')[0]; 
+  const addLink = $('#issue_tree a[href*="/issues/new"]')[0];
+  if (!addLink) {
+    return;
+  }
 
   for (let i = 0; i < useFieldIds.length; i++) {
     const field = $('#' + useFieldIds[i]);
