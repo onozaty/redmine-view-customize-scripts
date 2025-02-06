@@ -7,7 +7,8 @@ If the code you try does not work, you can ask a question via the project's [Iss
 **Please note that this is a place to ask questions, not a place to request coding.**
 
 This project is maintained by [@onozaty](https://github.com/onozaty), the author of the View customize plugin.  
-If this project serves you well, please support this project as a [sponsor](https://github.com/sponsors/onozaty).
+If you find this project useful, please ⭐ it to support its ongoing development.  
+I am also looking for [sponsors](https://github.com/sponsors/onozaty) who are interested in contributing to the maintenance and sustainability of this project. Your support would be highly appreciated.
 
 Currently, i am not accepting pull requests for additional scripts.  
 This is because it is difficult to take the time to review scripts created by other users and to maintain them in the future.
